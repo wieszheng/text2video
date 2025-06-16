@@ -113,9 +113,7 @@ uv pip install -e .
 
 #### 示例视频
 
-<video width="640" height="360" controls>
-  <source src="https://github.com/wieszheng/text2video/blob/master/docs/generated-video-1750083906912.mp4" type="video/mp4">
-  您的浏览器不支持视频播放。
+<video width="640" height="360" controls src="/docs/generated-video-1750083906912.mp4">
 </video>
 
 
