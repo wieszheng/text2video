@@ -1,0 +1,14 @@
+[project]
+name = "text2video"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "edge-tts>=7.0.2",
+    "fastapi>=0.115.12",
+    "loguru>=0.7.3",
+    "moviepy>=2.2.1",
+    "requests>=2.32.4",
+    "uvicorn>=0.34.3",
+]
