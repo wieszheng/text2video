@@ -1,10 +1,7 @@
-根据你的项目结构和代码内容，这是一个基于 FastAPI 构建的文本转视频服务系统。以下是一个推荐的 [README.md](file://D:\Workcode\python\text2video\README.md) 文件模板：
-
----
-
-# Text-to-Video API
+# Text-to-Video
 
 一个使用 FastAPI 构建的文本转视频服务，支持通过文字生成语音、图像并最终合成视频。
+
 
 ## 📁 项目目录结构
 
@@ -73,7 +70,6 @@ uv pip install -e .
 
 ```
 
-
 访问 `http://localhost:8000/docs` 查看交互式 API 文档。
 
 ## 📝 使用说明
@@ -98,26 +94,30 @@ uv pip install -e .
         }'
    ```
 
-你可以在 README.md 中添加一个 **预览视图**（Preview）章节，展示生成视频的效果或系统界面截图。由于目前没有上传图片，我将提供一个通用模板，你可以根据实际效果补充内容。
-
-以下是更新后的 [README.md](file://D:\Workcode\python\text2video\README.md) 预览视图部分：
-
----
-
 ## 🖼️ 预览视图
 
 ### 输出结果
-- 自动生成图像（基于 [Pollinations AI](https://image.pollinations.ai/)）
+- 自动生成图像（基于 [Pollinations AI](https://pollinations.ai/)）
 - 使用 Edge TTS 生成语音并同步字幕
 - 合成最终视频，包含：
   - 背景图片平移动画
   - 字幕自动换行与排版
   - 视频时长自适应音频长度
 
+#### 示例截图
+
+<div style="display: flex; gap: 10px;">
+  <img src="docs/1750082716586.jpg" width="49%" />
+  <img src="docs/1750082753416.jpg" width="49%" />
+</div>
+
+#### 示例视频
+
 <video width="640" height="360" controls>
-  <source src="/docs/generated-video-1750083906912.mp4" type="video/mp4">
+  <source src="https://github.com/wieszheng/text2video/blob/master/docs/generated-video-1750083906912.mp4" type="video/mp4">
   您的浏览器不支持视频播放。
 </video>
+
 
 ## 🤝 贡献指南
 
